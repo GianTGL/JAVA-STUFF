@@ -1,0 +1,44 @@
+| Method             | Description                                     |
+| ------------------ | ----------------------------------------------- |
+| `abs()`            | Returns the absolute value.                     |
+| `acos()`           | Returns the arc cosine.                         |
+| `addExact()`       | Adds two numbers with overflow check.           |
+| `asin()`           | Returns the arc sine.                           |
+| `atan()`           | Returns the arc tangent.                        |
+| `cos()`            | Returns the cosine of the angle.                |
+| `sin()`            | Returns the sine of the angle.                  |
+| `tan()`            | Returns the tangent of the angle.               |
+| `sinh()`           | Returns the hyperbolic sine.                    |
+| `cosh()`           | Returns the hyperbolic cosine.                  |
+| `tanh()`           | Returns the hyperbolic tangent.                 |
+| `sqrt()`           | Returns the square root.                        |
+| `cbrt()`           | Returns the cube root.                          |
+| `pow()`            | Returns the power of a number.                  |
+| `subtractExact()`  | Subtracts numbers with overflow check.          |
+| `multiplyExact()`  | Multiplies numbers with overflow check.         |
+| `incrementExact()` | Increments a number with overflow check.        |
+| `decrementExact()` | Decrements a number with overflow check.        |
+| `negateExact()`    | Negates the number safely.                      |
+| `toIntExact()`     | Converts a long to int safely.                  |
+| `min()`            | Returns the smaller value.                      |
+| `max()`            | Returns the larger value.                       |
+| `ceil()`           | Rounds upward.                                  |
+| `floor()`          | Rounds downward.                                |
+| `round()`          | Rounds to the nearest integer.                  |
+| `toRadians()`      | Converts degrees to radians.                    |
+| `toDegrees()`      | Converts radians to degrees.                    |
+| `atan2()`          | Converts coordinates (x, y) to (r, θ).          |
+| `copySign()`       | Copies the sign of one number to another.       |
+| `exp()`            | Returns e raised to the given value.            |
+| `expm1()`          | Returns e^x - 1.                                |
+| `getExponent()`    | Returns the unbiased exponent.                  |
+| `hypot()`          | Computes the hypotenuse.                        |
+| `IEEEremainder()`  | Returns IEEE 754 remainder.                     |
+| `log()`            | Returns the natural logarithm.                  |
+| `log10()`          | Returns the base-10 logarithm.                  |
+| `log1p()`          | Returns ln(1 + value).                          |
+| `nextAfter()`      | Returns the adjacent floating-point number.     |
+| `nextUp()`         | Returns the next greater floating-point number. |
+| `nextDown()`       | Returns the next smaller floating-point number. |
+| `rint()`           | Returns the closest integer as a double.        |
+| `random()`         | Returns a random value between 0.0 and 1.0.     |
