@@ -1,0 +1,162 @@
+## Java Core Methods Reference 
+
+This document provides a quick reference for common methods in core Java classes like `String`, `ArrayList`, `HashMap`, `Math`, and `Object`.
+
+---
+
+### Java `String` Methods
+
+| Method | Description |
+| :--- | :--- |
+| `split()` | Splits the string at the specified string (regex). |
+| `compareTo()` | Compares two strings in the dictionary order. |
+| `compareToIgnoreCase()` | Compares two strings ignoring case differences. |
+| `length()` | Returns the length of the string. |
+| `replace()` | Replace all matching characters/text in the string. |
+| `replaceAll()` | Replace all substrings matching the regex pattern. |
+| `substring()` | Returns a substring from the given string. |
+| `equals()` | Compares two strings. |
+| `equalsIgnoreCase()` | Compares two strings ignoring case differences. |
+| `contains()` | Checks whether the string contains a substring. |
+| `indexOf()` | Returns the index of the character/substring. |
+| `trim()` | Removes any leading and trailing whitespace. |
+| `charAt()` | Returns the character at the given index. |
+| `toLowerCase()` | Converts characters in the string to lower case. |
+| `concat()` | Concatenates two strings and returns it. |
+| `valueOf()` | Returns the string representation of a value. |
+| `matches()` | Checks whether the string matches the given regex. |
+| `startsWith()` | Checks if the string begins with the given string. |
+| `endsWith()` | Checks if the string ends with the given string. |
+| `isEmpty()` | Checks whether a string is empty or not. |
+| `intern()` | Returns a canonical representation of the string. |
+| `getBytes()` | Encodes the string into a sequence of bytes. |
+| `contentEquals()` | Checks whether the string is equal to a `CharSequence`. |
+| `hashCode()` | Returns a hash code for the string. |
+| `join()` | Joins the given strings using the delimiter. |
+| `replaceFirst()` | Replace the first matching substring. |
+| `subSequence()` | Returns a subsequence from the string. |
+| `toCharArray()` | Converts the string to a `char` array. |
+| `format()` | Returns a formatted string. |
+
+---
+
+### Java `ArrayList` Methods
+
+| Method | Description |
+| :--- | :--- |
+| `add()` | Inserts the element into the `ArrayList`. |
+| `addAll()` | Adds all elements of a collection to the `ArrayList`. |
+| `clear()` | Removes all the elements from the `ArrayList`. |
+| `clone()` | Makes a copy of the `ArrayList`. |
+| `contains()` | Checks if the element is present in the `ArrayList`. |
+| `get()` | Returns the element present at the specified index. |
+| `indexOf()` | Returns the position of the specified element (first occurrence). |
+| `removeAll()` | Removes multiple elements from the `ArrayList`. |
+| `remove()` | Removes the single element at an index or the first occurrence of an object. |
+| `size()` | Returns the number of elements in the `ArrayList`. |
+| `isEmpty()` | Checks if the `ArrayList` is empty. |
+| `subList()` | Returns a portion (view) of the `ArrayList`. |
+| `set()` | Replaces the single element at the specified position. |
+| `sort()` | Sorts the `ArrayList` according to a specified order. |
+| `toArray()` | Converts an `ArrayList` to an array. |
+| `toString()` | Converts the `ArrayList` into a `String` representation. |
+| `ensureCapacity()` | Increases the capacity, if necessary, to ensure it holds at least the number of elements specified. |
+| `lastIndexOf()` | Returns position of last occurrence of the element. |
+| `retainAll()` | Retains only the common elements between this list and a collection. |
+| `containsAll()` | Checks if a collection is a subset of the `ArrayList`. |
+| `trimToSize()` | Trims the capacity of the `ArrayList` equal to its current size. |
+| `removeRange()` | **(Protected)** Removes a portion of the `ArrayList`. |
+| `replaceAll()` | Replaces all elements with the result of applying an operator. |
+| `removeIf()` | Removes elements that satisfy a given condition (predicate). |
+| `forEach()` | Performs an action to all elements of the `ArrayList`. |
+| `iterator()` | Returns an iterator to loop through the `ArrayList`. |
+
+---
+
+### Java `HashMap` Methods
+
+| Method | Description |
+| :--- | :--- |
+| `clear()` | Removes all elements (mappings) from the `HashMap`. |
+| `clone()` | Makes a shallow copy of the `HashMap`. |
+| `isEmpty()` | Checks if the `HashMap` is empty. |
+| `size()` | Returns the number of key-value mappings in the `HashMap`. |
+| `put()` | Inserts the specified key-value mapping to the `HashMap`. |
+| `putAll()` | Inserts all mappings from a map to the `HashMap`. |
+| `putIfAbsent()` | Inserts item if the key is not already present. |
+| `remove()` | Removes the mapping for the specified key. |
+| `containsKey()` | Checks if the specified key is present in the `HashMap`. |
+| `containsValue()` | Checks if the `HashMap` contains the specified value. |
+| `replace()` | Replaces the entry for the specified key only if currently mapped to a given value. |
+| `replaceAll()` | Replaces all values with the result of applying an operator. |
+| `get()` | Returns the value using the specified key. |
+| `getOrDefault()` | Returns the value for the specified key, or a default if the key is not found. |
+| `forEach()` | Performs the action to all entries of the `HashMap`. |
+| `entrySet()` | Returns a `Set` view of all key-value entries. |
+| `keySet()` | Returns a `Set` view of all the keys of the `HashMap`. |
+| `values()` | Returns a `Collection` view of all values present in the `HashMap`. |
+| `merge()` | Merges the specified mapping (using a remapping function if key is present). |
+| `compute()` | Computes a new value for the specified key using a remapping function. |
+| `computeIfAbsent()` | Computes value if mapping for key is not present (or is null). |
+| `computeIfPresent()` | Computes a new value for the mapping only if the key is present and has a non-null value. |
+
+---
+
+### Java `Math` Methods
+
+| Method | Description |
+| :--- | :--- |
+| `abs()` | Returns the absolute value of a number. |
+| `sqrt()` | Returns the square root of the specified number. |
+| `cbrt()` | Returns the cube root of the specified number. |
+| `pow()` | Returns first argument raised to the power of the second ($x^y$). |
+| `min()` | Returns the smaller value among the arguments. |
+| `max()` | Returns the maximum value among the arguments. |
+| `ceil()` | Rounds the specified value upward to the nearest integer. |
+| `floor()` | Rounds the specified value downward to the nearest integer. |
+| `round()` | Rounds the specified argument to the nearest long or int. |
+| `random()` | Returns a random value between $0.0$ (inclusive) and $1.0$ (exclusive). |
+| `acos()` | Returns the arc cosine of the specified value. |
+| `asin()` | Returns the arc sine of the specified argument. |
+| `atan()` | Returns the inverse tangent function of a value. |
+| `cos()` | Returns the cosine of the specified angle (in radians). |
+| `sin()` | Returns the sine of the specified angle (in radians). |
+| `tan()` | Returns the tangent value of the specified angle (in radians). |
+| `sinh()` | Returns the hyperbolic sine of the specified value. |
+| `cosh()` | Returns hyperbolic cosine of the specified value. |
+| `tanh()` | Returns hyperbolic tangent of the specified value. |
+| `toRadians()` | Converts angle from degrees to radians. |
+| `toDegrees()` | Converts angle from radians to degrees. |
+| `atan2()` | Returns the angle ($\theta$) from rectangular coordinates $(x, y)$ to polar coordinates $(r, \theta)$. |
+| `addExact()` | Adds the specified numbers, throwing an exception on overflow. |
+| `subtractExact()` | Subtracts the specified numbers, throwing an exception on overflow. |
+| `multiplyExact()` | Multiplies the specified numbers, throwing an exception on overflow. |
+| `incrementExact()` | Adds 1 to the specified number, throwing an exception on overflow. |
+| `decrementExact()` | Subtracts 1 from specified number, throwing an exception on overflow. |
+| `negateExact()` | Negates the specified variable, throwing an exception on overflow. |
+| `toIntExact()` | Returns the `int` value from specified `long` argument, throwing an exception on overflow. |
+| `copySign()` | Copies the sign of the second argument to the magnitude of the first. |
+| `exp()` | Returns $e$ raised to power of given value ($e^x$). |
+| `expm1()` | Returns $e^x - 1$. |
+| `getExponent()` | Returns the unbiased exponent of specified number. |
+| `hypot()` | Computes the hypotenuse of a right-angle triangle ($\sqrt{x^2 + y^2}$). |
+| `IEEEremainder()` | Returns the remainder as per the IEEE 754 standard. |
+| `log()` | Returns the natural logarithm of specified value ($\ln x$). |
+| `log10()` | Returns the base 10 logarithm of specified value ($\log_{10} x$). |
+| `log1p()` | Returns natural logarithm of (specified value + 1) ($\ln(1+x)$). |
+| `nextAfter()` | Returns the floating-point number adjacent to the first argument in the direction of the second argument. |
+| `nextUp()` | Returns the floating-point number adjacent to value in the direction of positive infinity. |
+| `nextDown()` | Returns the floating-point number adjacent to value in the direction of negative infinity. |
+| `rint()` | Returns the closest mathematical integer to the value. |
+
+---
+
+### Java `Object` Methods
+
+| Method | Description |
+| :--- | :--- |
+| `getClass()` | Returns the runtime class of the object. |
+| `hashCode()` | Returns the hash code value for the object. |
+| `toString()` | Converts an object into a string representation. |
+| `equals()` | Indicates whether some other object is "equal to" this one. |
+| `clone()` | Creates and returns a copy of this object. |
