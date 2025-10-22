@@ -1,0 +1,24 @@
+| Method               | Description                                     |
+| -------------------- | ----------------------------------------------- |
+| `clear()`            | Removes all elements from the HashMap.          |
+| `clone()`            | Creates a copy of the HashMap.                  |
+| `isEmpty()`          | Checks if the HashMap is empty.                 |
+| `size()`             | Returns the number of key-value pairs.          |
+| `put()`              | Inserts a key-value pair.                       |
+| `putAll()`           | Inserts all entries from another map.           |
+| `putIfAbsent()`      | Inserts if the key is not already present.      |
+| `remove()`           | Removes the mapping for a specified key.        |
+| `containsKey()`      | Checks if the specified key exists.             |
+| `containsValue()`    | Checks if the specified value exists.           |
+| `replace()`          | Replaces the value for a specified key.         |
+| `replaceAll()`       | Replaces all values.                            |
+| `get()`              | Returns the value for the specified key.        |
+| `getOrDefault()`     | Returns a default value if the key isn’t found. |
+| `forEach()`          | Performs an action on all entries.              |
+| `entrySet()`         | Returns a set view of all entries.              |
+| `keySet()`           | Returns a set view of all keys.                 |
+| `values()`           | Returns a collection of all values.             |
+| `merge()`            | Merges a specified mapping into the HashMap.    |
+| `compute()`          | Computes a new value for a specified key.       |
+| `computeIfAbsent()`  | Computes value if key not present.              |
+| `computeIfPresent()` | Computes value if key is present.               |
