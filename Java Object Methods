@@ -1,0 +1,7 @@
+| Method       | Description                          |
+| ------------ | ------------------------------------ |
+| `getClass()` | Returns the class of the object.     |
+| `hashCode()` | Returns the hash code of the object. |
+| `toString()` | Converts the object to a string.     |
+| `equals()`   | Checks if two objects are equal.     |
+| `clone()`    | Creates a copy of the object.        |
