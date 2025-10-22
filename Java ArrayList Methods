@@ -1,0 +1,28 @@
+| Method             | Description                                    |
+| ------------------ | ---------------------------------------------- |
+| `add()`            | Inserts an element to the ArrayList.           |
+| `addAll()`         | Adds all elements from a collection.           |
+| `clear()`          | Removes all elements from the ArrayList.       |
+| `clone()`          | Makes a copy of the ArrayList.                 |
+| `contains()`       | Checks if an element is present.               |
+| `get()`            | Returns the element at a specific index.       |
+| `indexOf()`        | Returns the position of the specified element. |
+| `removeAll()`      | Removes multiple elements from the ArrayList.  |
+| `remove()`         | Removes a single element.                      |
+| `size()`           | Returns the length of the ArrayList.           |
+| `isEmpty()`        | Checks if the ArrayList is empty.              |
+| `subList()`        | Returns a portion of the ArrayList.            |
+| `set()`            | Replaces a single element.                     |
+| `sort()`           | Sorts according to the specified order.        |
+| `toArray()`        | Converts the ArrayList to an array.            |
+| `toString()`       | Converts the ArrayList to a string.            |
+| `ensureCapacity()` | Sets the capacity of the ArrayList.            |
+| `lastIndexOf()`    | Returns the position of the last occurrence.   |
+| `retainAll()`      | Retains only common elements.                  |
+| `containsAll()`    | Checks if a collection is a subset.            |
+| `trimToSize()`     | Trims capacity to the current size.            |
+| `removeRange()`    | Removes a portion of the ArrayList.            |
+| `replaceAll()`     | Replaces all elements in the ArrayList.        |
+| `removeIf()`       | Removes elements that satisfy a condition.     |
+| `forEach()`        | Performs an action on all elements.            |
+| `iterator()`       | Returns an iterator for looping.               |
